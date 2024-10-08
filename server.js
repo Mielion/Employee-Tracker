@@ -1,7 +1,10 @@
 //we use the relative route ./, and this is very different than /
+// importing modules
 import inquirer from "inquirer";
 import { connection } from "./database/connection.js";
 
+
+// delcaring quesions and prompting
 const employeeQuestions = () => {
   inquirer
     .prompt({
@@ -48,7 +51,8 @@ const employeeQuestions = () => {
     });
 };
 
-//remember to use await because connection always uses asynchronous functions
+// functions to handle the prompts
+
 const viewAllDepartments = function () {
   connection.query("SELECT * FROM department", (error, result) => {
     if (error) {
