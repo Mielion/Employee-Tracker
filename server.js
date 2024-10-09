@@ -147,7 +147,7 @@ const updateEmployee = async () => {
       },
     ]);
 
-    const results = await connection.query(`UPDATE employee SET role_id = $1 WHERE id = $2 returning *;`, [answers.employeeSelected, answers.employeeNewRole]);
+    const results = await connection.query(`UPDATE employee SET role_id = $1 WHERE id = $2 returning *;`, [answers.employeeNewRole, answers.employeeSelected]);
 
     console.table(results.rows);
     employeeQuestions();
