@@ -22,7 +22,7 @@ For a step-by-step demonstration of the application's functionality, check out t
 - cd inquirer-cms
   
 - Install dependencies:
-- npm install
+- npm run
   
 * Start the application:
 - npm start
