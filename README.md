@@ -21,10 +21,8 @@ For a step-by-step demonstration of the application's functionality, check out t
 - Navigate to the project directory:
 - cd inquirer-cms
   
-- Install dependencies:
-- npm run
-  
 * Start the application:
+* npm run
 - npm start
   
 - Follow the on-screen prompts to interact with the employee database.
