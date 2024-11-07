@@ -6,18 +6,20 @@ The Employee Tracker is a command-line application that allows businesses to eff
 
 # Installation
 
-Clone the repository to your local machine.
-Install dependencies by running npm install.
++ Clone the repository to your local machine.
++ Install dependencies by running npm install.
 
 # Usage
-Run the application using cd inquirer-cms
-then npm run 
-then npm start
-Follow the on-screen prompts to interact with the employee database.
-Make updates, view details, and manage employee records in real-time.
+- Navigate to the project directory:
+cd inquirer-cms
+- Install dependencies:
+npm install
+- Start the application:
+npm start
+- Follow the on-screen prompts to interact with the employee database.
 
 # Dependencies
 
- ## dotenv    "^16.4.5"
- ## inquirer  "^8.2.4"
- ## pg        "^8.13.0"
+ - dotenv    "^16.4.5"
+ - inquirer  "^8.2.4"
+ - pg        "^8.13.0"
